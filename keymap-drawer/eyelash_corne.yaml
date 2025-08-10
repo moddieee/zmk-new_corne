@@ -3,7 +3,7 @@ layers:
   COLEMK:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
-  - {t: W, h: app}
+  - {t: W, h: APP}
   - F
   - P
   - B
@@ -31,7 +31,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
-  - {t: X, h: app}
+  - {t: X, h: APP}
   - {t: C, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - V
@@ -52,7 +52,7 @@ layers:
   QWERTY:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
-  - {t: W, h: app}
+  - {t: W, h: APP}
   - E
   - R
   - T
@@ -80,7 +80,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
-  - {t: X, h: app}
+  - {t: X, h: APP}
   - {t: C, h: '$$mdi:apple-keyboard-option$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - B
@@ -245,7 +245,7 @@ layers:
   - {t: '0', h: '$$mdi:apple-keyboard-shift$$', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  app:
+  APP:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+7, s: Gui+&}
   - {type: held}

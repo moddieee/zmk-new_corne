@@ -3,7 +3,7 @@ layers:
   COLEMK:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
-  - {t: W, h: COLEMK}
+  - {t: W, h: app}
   - F
   - P
   - B
@@ -17,21 +17,21 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - A
   - R
-  - {t: S, h: SYMBOL}
-  - {t: T, h: '4'}
+  - {t: S, h: NAV}
+  - {t: T, h: NUM}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - M
-  - {t: N, h: '4'}
-  - {t: E, h: SYMBOL}
+  - {t: N, h: NUM}
+  - {t: E, h: NAV}
   - I
   - O
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
-  - {t: X, h: COLEMK}
+  - {t: X, h: app}
   - {t: C, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - B
@@ -47,12 +47,12 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: NUM}
+  - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   QWERTY:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
-  - {t: W, h: COLEMK}
+  - {t: W, h: app}
   - E
   - R
   - T
@@ -66,21 +66,21 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - A
   - S
-  - {t: D, h: SYMBOL}
-  - {t: F, h: '4'}
+  - {t: D, h: NAV}
+  - {t: F, h: NUM}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - {t: J, h: '4'}
-  - {t: K, h: SYMBOL}
+  - {t: J, h: NUM}
+  - {t: K, h: NAV}
   - L
   - P
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
-  - {t: X, h: COLEMK}
+  - {t: X, h: app}
   - {t: C, h: '$$mdi:apple-keyboard-option$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - B
@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: NUM}
+  - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   NAV:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -115,7 +115,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-tab$$', h: 'Alt+Ctl+$$mdi:keyboard-tab$$'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$', type: held}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:pan-right$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -123,7 +123,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - END
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', h: Ctl+Sft+3}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -164,7 +164,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - {t: '=', s: +}
-  - {t: '-', s: _, type: held}
+  - {t: '-', s: _}
   - {t: '''', s: '"'}
   - {t: \, s: '|'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -172,7 +172,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '{'
   - (
-  - {t: ), type: held alternate}
+  - )
   - '}'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -214,13 +214,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: F3, h: F9}
   - {t: F2, h: F8}
-  - {t: F1, h: F7}
+  - {t: F1, h: F7, type: held}
   - $$mdi:volume-low$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - +
-  - '4'
+  - {t: '4', type: held alternate}
   - {t: '5', s: '%'}
   - '6'
   - {t: '$$mdi:keyboard-return$$', h: '='}
@@ -243,12 +243,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', h: '$$mdi:apple-keyboard-shift$$', s: )}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  '4':
+  - {t: '$$mdi:transfer$$', type: trans}
+  app:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+7, s: Gui+&}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: Gui+8, s: Gui+*}
   - {t: Gui+9, s: Gui+(}
   - Sft+Gui+S
@@ -263,20 +263,20 @@ layers:
   - Gui+4
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+5, s: Gui+%}
-  - {t: Gui+6, type: held}
+  - Gui+6
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+1
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - Gui+2
   - Gui+3
   - Alt+$$mdi:keyboard-tab$$
@@ -294,3 +294,29 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [2, 15]
+  k: Alt+$$mdi:arrow-left-bold$$
+- p: [15, 30]
+  k: Alt+$$mdi:arrow-right-bold$$
+- p: [7, 8]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [4, 5]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [4, 18]
+  k: Alt+$$mdi:keyboard-tab$$
+- p: [26, 40]
+  k: '&mkp MB1'
+- p: [11, 26]
+  k: '&mkp MB2'
+- p: [40, 39]
+  k: '&mkp MB3'
+- p: [8, 9]
+  k: {t: ;, s: ':'}
+- p: [9, 10]
+  k: ':'
+- p: [1, 2, 3]
+  k: {t: QWERTY, h: toggle}
+- p: [1, 2, 3]
+  k: {t: COLEMK, h: toggle}
+  l: [QWERTY]

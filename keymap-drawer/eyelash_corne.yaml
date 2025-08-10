@@ -34,7 +34,7 @@ layers:
   - {t: X, h: app}
   - {t: C, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - B
+  - V
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - K

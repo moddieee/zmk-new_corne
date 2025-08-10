@@ -158,7 +158,7 @@
             bindings = <
 &none  &kp Q  &lt 5 W  &kp F           &kp P                       &kp B                               &kp UP                &kp J      &kp L       &kp U      &kp Y                   &mt LC(BACKSPACE) BACKSPACE  &none
 &none  &kp A  &kp R    &lt 2 S         &lt 4 T                     &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp M      &lt 4 N     &lt 2 E    &kp I                   &kp O                        &none
-&none  &kp Z  &lt 5 X  &ht LEFT_ALT C  &ht LEFT_GUI D              &kp B            &none              &kp DOWN              &kp K      &ht LWIN H  &td_comma  &ht PERIOD EXCLAMATION  &kp FSLH                     &none
+&none  &kp Z  &lt 5 X  &ht LEFT_ALT C  &ht LEFT_GUI D              &kp V            &none              &kp DOWN              &kp K      &ht LWIN H  &td_comma  &ht PERIOD EXCLAMATION  &kp FSLH                     &none
                        &none           &ht LA(LC(LEFT_ALT)) SPACE  &mt LCTRL ENTER                                           &sk LSHFT  &lt 3 TAB   &none
             >;
 

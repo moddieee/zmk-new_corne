@@ -230,6 +230,8 @@
 &trans  &kp LG(NUMBER_1)  &trans  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LA(TAB)    &trans            &trans          &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans
                                   &trans            &sk LEFT_GUI      &trans                                           &trans  &trans           &trans
             >;
+
+            label = "APP";
         };
     };
 };

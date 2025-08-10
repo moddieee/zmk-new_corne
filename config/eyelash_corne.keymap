@@ -77,7 +77,7 @@
             bindings = <&kp>;
             #binding-cells = <1>;
             quick-release;
-            release-after-ms = <100>;
+            release-after-ms = <1000>;
         };
     };
 

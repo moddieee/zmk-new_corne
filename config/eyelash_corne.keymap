@@ -85,16 +85,81 @@
         tap-ms = <100>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Back {
+            bindings = <&kp LA(LEFT)>;
+            key-positions = <2 15>;
+        };
+
+        Forward {
+            bindings = <&kp LA(RIGHT)>;
+            key-positions = <15 30>;
+        };
+
+        Del1 {
+            bindings = <&kp DELETE>;
+            key-positions = <7 8>;
+        };
+
+        Del2 {
+            bindings = <&kp DELETE>;
+            key-positions = <4 5>;
+        };
+
+        AltTab {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <4 18>;
+        };
+
+        Mouse1 {
+            bindings = <&mkp MB1>;
+            key-positions = <26 40>;
+        };
+
+        Mouse2 {
+            bindings = <&mkp MB2>;
+            key-positions = <11 26>;
+        };
+
+        Mouse3 {
+            bindings = <&mkp MB3>;
+            key-positions = <40 39>;
+        };
+
+        SemiColon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <8 9>;
+        };
+
+        Colon {
+            bindings = <&kp COLON>;
+            key-positions = <9 10>;
+        };
+
+        QwertyLayer {
+            bindings = <&to 1>;
+            key-positions = <1 2 3>;
+        };
+
+        ColemakLayer {
+            bindings = <&to 0>;
+            key-positions = <1 2 3>;
+            layers = <1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         alpha1 {
             display-name = "COLEMK";
             bindings = <
-&none  &kp Q  &lt 0 W  &kp F           &kp P                       &kp B                               &kp UP                &kp J      &kp L       &kp U      &kp Y                   &mt LC(BACKSPACE) BACKSPACE  &none
-&none  &kp A  &kp R    &lt 3 S         &lt 5 T                     &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp M      &lt 5 N     &lt 3 E    &kp I                   &kp O                        &none
-&none  &kp Z  &lt 0 X  &ht LEFT_ALT C  &ht LEFT_GUI D              &kp B            &none              &kp DOWN              &kp K      &ht LWIN H  &td_comma  &ht PERIOD EXCLAMATION  &kp FSLH                     &none
-                       &none           &ht LA(LC(LEFT_ALT)) SPACE  &mt LCTRL ENTER                                           &sk LSHFT  &lt 4 TAB   &none
+&none  &kp Q  &lt 5 W  &kp F           &kp P                       &kp B                               &kp UP                &kp J      &kp L       &kp U      &kp Y                   &mt LC(BACKSPACE) BACKSPACE  &none
+&none  &kp A  &kp R    &lt 2 S         &lt 4 T                     &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp M      &lt 4 N     &lt 2 E    &kp I                   &kp O                        &none
+&none  &kp Z  &lt 5 X  &ht LEFT_ALT C  &ht LEFT_GUI D              &kp B            &none              &kp DOWN              &kp K      &ht LWIN H  &td_comma  &ht PERIOD EXCLAMATION  &kp FSLH                     &none
+                       &none           &ht LA(LC(LEFT_ALT)) SPACE  &mt LCTRL ENTER                                           &sk LSHFT  &lt 3 TAB   &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -103,10 +168,10 @@
         alpha2 {
             display-name = "QWERTY";
             bindings = <
-&none  &kp Q  &lt 0 W  &kp E           &kp R                       &kp T                               &kp UP                &kp Y      &kp U       &kp I      &kp O                   &mt LC(BACKSPACE) BACKSPACE  &none
-&none  &kp A  &kp S    &lt 3 D         &lt 5 F                     &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &lt 5 J     &lt 3 K    &kp L                   &kp P                        &none
-&none  &kp Z  &lt 0 X  &ht LEFT_ALT C  &ht LEFT_GUI V              &kp B            &none              &kp DOWN              &kp N      &ht LWIN M  &td_comma  &ht PERIOD EXCLAMATION  &kp FSLH                     &none
-                       &none           &ht LA(LC(LEFT_ALT)) SPACE  &mt LCTRL ENTER                                           &sk LSHFT  &lt 4 TAB   &none
+&none  &kp Q  &lt 5 W  &kp E           &kp R                       &kp T                               &kp UP                &kp Y      &kp U       &kp I      &kp O                   &mt LC(BACKSPACE) BACKSPACE  &none
+&none  &kp A  &kp S    &lt 2 D         &lt 4 F                     &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &lt 4 J     &lt 2 K    &kp L                   &kp P                        &none
+&none  &kp Z  &lt 5 X  &ht LEFT_ALT C  &ht LEFT_GUI V              &kp B            &none              &kp DOWN              &kp N      &ht LWIN M  &td_comma  &ht PERIOD EXCLAMATION  &kp FSLH                     &none
+                       &none           &ht LA(LC(LEFT_ALT)) SPACE  &mt LCTRL ENTER                                           &sk LSHFT  &lt 3 TAB   &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -148,7 +213,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_4 {
+        app {
             bindings = <
 &trans  &kp LG(N7)        &trans  &kp LG(N8)        &kp LG(N9)        &kp LS(LG(S))                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LG(NUMBER_4)  &trans  &kp LG(N5)        &kp LG(NUMBER_6)  &trans                   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans

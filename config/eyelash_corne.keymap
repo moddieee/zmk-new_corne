@@ -77,7 +77,7 @@
             bindings = <
 &kp TAB    &kp Q  &lt 6 W  &kp F           &kp P                       &kp B                                   &kp UP                &kp J      &kp L       &kp U      &kp Y                   &mt LC(BACKSPACE) BACKSPACE  &kp BSPC
 &td0       &kp A  &kp R    &lt 3 S         &lt 5 T                     &kp G                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp M      &lt 5 N     &lt 3 E    &kp I                   &kp O                        &kp SQT
-&kp LCTRL  &kp Z  &lt 6 X  &ht LEFT_ALT C  &mt LEFT_GUI D              &kp B            &kp SPACE              &kp DOWN              &kp K      &ht LWIN H  &td_comma  &mt PERIOD EXCLAMATION  &kp FSLH                     &kp ESC
+&kp LCTRL  &kp Z  &lt 6 X  &ht LEFT_ALT C  &ht LEFT_GUI D              &kp B            &kp SPACE              &kp DOWN              &kp K      &ht LWIN H  &td_comma  &mt PERIOD EXCLAMATION  &kp FSLH                     &kp ESC
                            &kp LGUI        &mt LA(LC(LEFT_ALT)) SPACE  &mt LCTRL ENTER                                               &sk LSHFT  &lt 4 TAB   &kp RALT
             >;
 
@@ -89,7 +89,7 @@
             bindings = <
 &kp TAB    &kp Q  &lt 6 W  &kp E           &kp R                       &kp T                                   &kp UP                &kp Y      &kp U       &kp I      &kp O                   &mt LC(BACKSPACE) BACKSPACE  &kp BSPC
 &td0       &kp A  &kp S    &lt 3 R         &lt 5 F                     &kp G                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &lt 5 J     &lt 3 K    &kp I                   &kp P                        &kp SQT
-&kp LCTRL  &kp Z  &lt 6 X  &mt LEFT_ALT C  &mt LEFT_GUI V              &kp B            &kp SPACE              &kp DOWN              &kp N      &mt LWIN M  &td_comma  &mt PERIOD EXCLAMATION  &kp FSLH                     &kp ESC
+&kp LCTRL  &kp Z  &lt 6 X  &ht LEFT_ALT C  &ht LEFT_GUI V              &kp B            &kp SPACE              &kp DOWN              &kp N      &mt LWIN M  &td_comma  &mt PERIOD EXCLAMATION  &kp FSLH                     &kp ESC
                            &kp LGUI        &mt LA(LC(LEFT_ALT)) SPACE  &mt LCTRL ENTER                                               &sk LSHFT  &lt 4 TAB   &kp RALT
             >;
 

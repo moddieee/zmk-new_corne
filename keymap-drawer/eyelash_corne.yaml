@@ -40,7 +40,7 @@ layers:
   - K
   - {t: H, h: LWIN}
   - '&td_comma'
-  - {t: '!', h: .}
+  - {t: ., h: '!'}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -89,7 +89,7 @@ layers:
   - N
   - {t: M, h: LWIN}
   - '&td_comma'
-  - {t: '!', h: .}
+  - {t: ., h: '!'}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}

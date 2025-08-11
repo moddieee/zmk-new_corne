@@ -168,7 +168,7 @@
             bindings = <
 &none  &kp Q  &lt 5 W  &kp F           &kp P                       &kp B                                       &kp UP                        &kp J           &kp L       &kp U      &kp Y                   &ht LC(BACKSPACE) BACKSPACE  &none
 &none  &kp A  &kp R    &lt 2 S         &lt 4 T                     &kp G                     &kp LG(LC(LEFT))  &kp ENTER  &kp LC(LG(RIGHT))  &kp M           &lt 4 N     &lt 2 E    &kp I                   &kp O                        &none
-&none  &kp Z  &lt 5 X  &ht LEFT_ALT C  &ht LEFT_GUI D              &kp V            &none                      &kp DOWN                      &kp K           &ht LWIN H  &td_comma  &ht EXCLAMATION PERIOD  &kp FSLH                     &none
+&none  &kp Z  &lt 5 X  &ht LEFT_ALT C  &ht LEFT_GUI D              &kp V            &none                      &kp DOWN                      &kp K           &ht LWIN H  &td_comma  &ht EXCLAMATION PERIOD  &ht QUESTION SLASH           &none
                        &none           &ht LA(LC(LEFT_ALT)) SPACE  &mt LCTRL ENTER                                                           &quickSK LSHFT  &lt 3 TAB   &none
             >;
 
@@ -180,7 +180,7 @@
             bindings = <
 &none  &kp Q  &lt 5 W  &kp E           &kp R                       &kp T                               &kp UP                &kp Y           &kp U       &kp I      &kp O                   &ht LC(BACKSPACE) BACKSPACE  &none
 &none  &kp A  &kp S    &lt 2 D         &lt 4 F                     &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H           &lt 4 J     &lt 2 K    &kp L                   &kp P                        &none
-&none  &kp Z  &lt 5 X  &ht LEFT_ALT C  &ht LEFT_GUI V              &kp B            &none              &kp DOWN              &kp N           &ht LWIN M  &td_comma  &ht EXCLAMATION PERIOD  &kp FSLH                     &none
+&none  &kp Z  &lt 5 X  &ht LEFT_ALT C  &ht LEFT_GUI V              &kp B            &none              &kp DOWN              &kp N           &ht LWIN M  &td_comma  &ht EXCLAMATION PERIOD  &ht QUESTION SLASH           &none
                        &none           &ht LA(LC(LEFT_ALT)) SPACE  &mt LCTRL ENTER                                           &quickSK LSHFT  &lt 3 TAB   &none
             >;
 

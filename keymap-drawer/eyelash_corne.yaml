@@ -20,9 +20,9 @@ layers:
   - {t: S, h: NAV}
   - {t: T, h: NUM}
   - G
-  - $$mdi:arrow-left-bold$$
+  - Gui+Ctl+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
+  - Ctl+Gui+$$mdi:arrow-right-bold$$
   - M
   - {t: N, h: NUM}
   - {t: E, h: NAV}

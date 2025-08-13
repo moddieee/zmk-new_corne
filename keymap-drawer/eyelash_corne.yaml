@@ -44,7 +44,7 @@ layers:
   - {t: /, h: '?', s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-space$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-space$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
@@ -320,3 +320,5 @@ combos:
 - p: [1, 2, 3]
   k: {t: COLEMK, h: toggle}
   l: [QWERTY]
+- p: [18, 33]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}

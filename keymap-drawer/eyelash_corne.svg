@@ -545,7 +545,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-option"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-shift"/>
 </g>
 <g transform="translate(348, 226) rotate(24.0)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -625,6 +625,10 @@ rect.held, rect.combo.held {
 <a href="#QWERTY">
 <text x="140" y="37" class="combo tap layer-activator">QWERTY</text>
 </a><text x="140" y="48" class="combo hold">toggle</text>
+</g>
+<g class="combo enter combopos-11">
+<rect rx="6" ry="6" x="294" y="112" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="299" y="116" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
 </g>
 </g>
@@ -958,6 +962,10 @@ rect.held, rect.combo.held {
 <text x="140" y="37" class="combo tap layer-activator">COLEMK</text>
 </a><text x="140" y="48" class="combo hold">toggle</text>
 </g>
+<g class="combo enter combopos-12">
+<rect rx="6" ry="6" x="294" y="112" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="299" y="116" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-NAV">
@@ -1276,6 +1284,10 @@ rect.held, rect.combo.held {
 <text x="140" y="37" class="combo tap layer-activator">QWERTY</text>
 </a><text x="140" y="48" class="combo hold">toggle</text>
 </g>
+<g class="combo enter combopos-11">
+<rect rx="6" ry="6" x="294" y="112" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="299" y="116" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 955)" class="layer-SYMBOL">
@@ -1586,6 +1598,10 @@ rect.held, rect.combo.held {
 <a href="#QWERTY">
 <text x="140" y="37" class="combo tap layer-activator">QWERTY</text>
 </a><text x="140" y="48" class="combo hold">toggle</text>
+</g>
+<g class="combo enter combopos-11">
+<rect rx="6" ry="6" x="294" y="112" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="299" y="116" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
 </g>
 </g>
@@ -1909,6 +1925,10 @@ rect.held, rect.combo.held {
 <text x="140" y="37" class="combo tap layer-activator">QWERTY</text>
 </a><text x="140" y="48" class="combo hold">toggle</text>
 </g>
+<g class="combo enter combopos-11">
+<rect rx="6" ry="6" x="294" y="112" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="299" y="116" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1592)" class="layer-APP">
@@ -2225,6 +2245,10 @@ rect.held, rect.combo.held {
 <a href="#QWERTY">
 <text x="140" y="37" class="combo tap layer-activator">QWERTY</text>
 </a><text x="140" y="48" class="combo hold">toggle</text>
+</g>
+<g class="combo enter combopos-11">
+<rect rx="6" ry="6" x="294" y="112" width="28" height="26" class="combo enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="299" y="116" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
 </g>
 </g>

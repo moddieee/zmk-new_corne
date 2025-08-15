@@ -163,6 +163,24 @@
             bindings = <&kp ENTER>;
             key-positions = <18 33>;
         };
+
+        QBALCMLinks {
+            bindings = <&ALCMLinks>;
+            key-positions = <1 5>;
+        };
+    };
+
+    macros {
+        ALCMLinks: ALCMLinks {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LC(L)>,
+                <&macro_wait_time 200>,
+                <&kp LS(Z) &kp COLON &kp BSLH &kp LS(A) &kp LS(L) &kp LS(C) &kp LS(M) &kp SPACE &kp LS(L) &kp I &kp N &kp K &kp S>;
+
+            label = "ALCMLINKS";
+        };
     };
 
     keymap {

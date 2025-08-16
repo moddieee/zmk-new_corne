@@ -38,7 +38,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_COMMA";
             #binding-cells = <0>;
-            bindings = <&mt LEFT_ALT COMMA>, <&kp MINUS>;
+            bindings = <&kp COMMA>, <&kp MINUS>;
 
             tapping-term-ms = <180>;
         };

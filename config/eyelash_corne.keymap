@@ -225,10 +225,10 @@
         symbol {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL   &kp AT     &kp HASH                 &kp DLLR           &kp PRCNT                                &mmv MOVE_UP                     &kp CARET       &kp AMPS              &kp ASTRK              &kp TILDE         &trans        &trans
-&trans  &kp TAB    &kp EQUAL  &kp MINUS                &kp SQT            &kp BACKSLASH            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp ENTER     &trans
-&trans  &kp GRAVE  &kp PLUS   &mt LEFT_ALT UNDERSCORE  &kp DOUBLE_QUOTES  &kp PIPE       &trans                    &mmv MOVE_DOWN                   &kp LESS_THAN   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GREATER_THAN  &kp QUESTION  &trans
-                              &trans                   &trans             &trans                                                                    &trans          &trans                &trans
+&trans  &kp EXCL   &kp AT     &kp HASH                 &kp DLLR                    &kp PRCNT                                &mmv MOVE_UP                     &kp CARET       &kp AMPS                   &kp ASTRK                   &kp TILDE         &trans        &trans
+&trans  &kp TAB    &kp EQUAL  &kp MINUS                &kp SQT                     &kp BACKSLASH            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS       &kp RIGHT_BRACE   &kp ENTER     &trans
+&trans  &kp GRAVE  &kp PLUS   &ht LEFT_ALT UNDERSCORE  &ht LEFT_GUI DOUBLE_QUOTES  &kp PIPE       &trans                    &mmv MOVE_DOWN                   &kp LESS_THAN   &ht LEFT_GUI LEFT_BRACKET  &ht LEFT_ALT RIGHT_BRACKET  &kp GREATER_THAN  &kp QUESTION  &trans
+                              &trans                   &trans                      &trans                                                                    &trans          &trans                     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;

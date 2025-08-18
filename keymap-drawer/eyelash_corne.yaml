@@ -39,7 +39,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - K
   - {t: H, h: LWIN}
-  - '&td_comma'
+  - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
   - {t: ., h: '!'}
   - {t: /, h: '?', s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -324,3 +324,5 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [1, 5]
   k: '&ALCMLinks'
+- p: [38, 39]
+  k: {t: '-', s: _}

@@ -38,9 +38,9 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_COMMA";
             #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp MINUS>;
+            bindings = <&ht LEFT_ALT COMMA>, <&kp MINUS>;
 
-            tapping-term-ms = <180>;
+            tapping-term-ms = <220>;
         };
 
         ht: ht {
@@ -215,7 +215,7 @@
             bindings = <
 &trans  &LongHT LA(F4) ESC        &msc SCRL_UP        &mmv MOVE_UP            &msc SCRL_DOWN              &msc SCRL_LEFT                                               &mmv MOVE_UP                     &kp HOME   &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &trans                      &trans
 &trans  &mt LA(LC(TAB)) TAB       &mmv MOVE_LEFT      &mmv MOVE_DOWN          &mmv MOVE_RIGHT             &msc SCRL_RIGHT                              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp END    &kp LEFT     &kp DOWN      &kp RIGHT      &ht LC(LS(NUMBER_3)) ENTER  &trans
-&trans  &MouseHT LEFT_SHIFT MCLK  &MouseHT LWIN RCLK  &ht LEFT_ALT LC(LA(V))  &mkp LCLK                   &LongHT LC(LA(DELETE)) DELETE  &kp C_MUTE                    &mmv MOVE_DOWN                   &mkp RCLK  &mkp LCLK    &none         &none          &none                       &trans
+&trans  &MouseHT LEFT_SHIFT MCLK  &MouseHT LWIN RCLK  &ht LEFT_ALT LC(LA(V))  &mkp LCLK                   &LongHT LC(LA(DELETE)) DELETE  &kp C_MUTE                    &mmv MOVE_DOWN                   &mkp RCLK  &mkp LCLK    &to 0         &to 1          &none                       &trans
                                                       &trans                  &ht LC(LS(NUMBER_3)) SPACE  &trans                                                                                        &trans     &trans       &trans
             >;
 
@@ -248,7 +248,7 @@
 
         app {
             bindings = <
-&trans  &kp LG(N7)        &trans  &kp LG(N8)        &kp LG(N9)        &kp LS(LG(S))                    &trans          &trans  &bt BT_CLR_ALL   &bt BT_NXT       &bt BT_PRV       &trans           &trans
+&trans  &kp LG(N7)        &trans  &kp LG(N8)        &kp LG(N9)        &kp LS(LG(S))                    &trans          &trans  &bt BT_CLR       &bt BT_NXT       &bt BT_PRV       &trans           &trans
 &trans  &kp LG(NUMBER_4)  &trans  &kp LG(N5)        &kp LG(NUMBER_6)  &trans                   &trans  &trans  &trans  &trans  &trans           &kp CAPSLOCK     &trans           &trans           &trans
 &trans  &kp LG(NUMBER_1)  &trans  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LA(TAB)    &trans            &trans          &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans
                                   &trans            &sk LEFT_GUI      &trans                                           &trans  &trans           &trans

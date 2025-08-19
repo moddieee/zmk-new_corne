@@ -43,7 +43,7 @@ layers:
   - {t: ., h: '!'}
   - {t: /, h: '?', s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Alt+$$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}

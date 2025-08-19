@@ -194,10 +194,10 @@
         alpha1 {
             display-name = "COLEMK";
             bindings = <
-&none  &kp Q  &lt 5 W  &kp F           &kp P                         &kp B                                       &kp UP                        &kp J           &kp L       &kp U               &kp Y                   &ht LC(BACKSPACE) BACKSPACE  &none
-&none  &kp A  &kp R    &lt 2 S         &lt 4 T                       &kp G                     &kp LG(LC(LEFT))  &kp ENTER  &kp LC(LG(RIGHT))  &kp M           &lt 4 N     &lt 2 E             &kp I                   &kp O                        &none
-&none  &kp Z  &lt 5 X  &ht LEFT_ALT C  &ht LEFT_GUI D                &kp V            &none                      &kp DOWN                      &kp K           &ht LWIN H  &ht LEFT_ALT COMMA  &ht EXCLAMATION PERIOD  &ht QUESTION SLASH           &none
-                       &none           &ht LA(LC(LEFT_SHIFT)) SPACE  &mt LCTRL ENTER                                                           &quickSK LSHFT  &lt 3 TAB   &none
+&none  &kp Q  &lt 5 W  &kp F            &kp P                         &kp B                                       &kp UP                        &kp J           &kp L       &kp U               &kp Y                   &ht LC(BACKSPACE) BACKSPACE  &none
+&none  &kp A  &kp R    &lt 2 S          &lt 4 T                       &kp G                     &kp LG(LC(LEFT))  &kp ENTER  &kp LC(LG(RIGHT))  &kp M           &lt 4 N     &lt 2 E             &kp I                   &kp O                        &none
+&none  &kp Z  &lt 5 X  &ht LEFT_ALT C   &ht LEFT_GUI D                &kp V            &none                      &kp DOWN                      &kp K           &ht LWIN H  &ht LEFT_ALT COMMA  &ht EXCLAMATION PERIOD  &ht QUESTION SLASH           &none
+                       &kp LC(LA(TAB))  &ht LA(LC(LEFT_SHIFT)) SPACE  &mt LCTRL ENTER                                                           &quickSK LSHFT  &lt 3 TAB   &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;

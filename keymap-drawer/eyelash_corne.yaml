@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   QWERTY:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Q
   - {t: W, h: APP}
   - E
@@ -62,8 +62,8 @@ layers:
   - I
   - O
   - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - A
   - S
   - {t: D, h: NAV}
@@ -77,27 +77,27 @@ layers:
   - {t: K, h: NAV}
   - L
   - P
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Z
   - {t: X, h: APP}
   - {t: C, h: '$$mdi:apple-keyboard-option$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - B
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
   - N
   - {t: M, h: LWIN}
   - '&td_comma'
   - {t: ., h: '!'}
   - {t: /, h: '?', s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   NAV:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-esc$$', h: Alt+F4}

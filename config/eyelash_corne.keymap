@@ -192,7 +192,7 @@
         compatible = "zmk,keymap";
 
         alpha1 {
-            display-name = "COLEMK";
+            display-name = "CLMK";
             bindings = <
 &none  &kp Q  &lt 5 W  &kp F                          &kp P                         &kp B                                       &kp UP                        &kp J           &kp L       &kp U               &kp Y                   &ht LC(BACKSPACE) BACKSPACE  &none
 &none  &kp A  &kp R    &lt 2 S                        &lt 4 T                       &kp G                     &kp LG(LC(LEFT))  &kp ENTER  &kp LC(LG(RIGHT))  &kp M           &lt 4 N     &lt 2 E             &kp I                   &kp O                        &none
@@ -204,7 +204,7 @@
         };
 
         alpha2 {
-            display-name = "QWERTY";
+            display-name = "QWTY";
             bindings = <
 &trans  &kp Q  &lt 5 W  &kp E           &kp R                         &kp T                                &kp UP                &kp Y           &kp U       &kp I      &kp O                   &ht LC(BACKSPACE) BACKSPACE  &trans
 &trans  &kp A  &kp S    &lt 2 D         &lt 4 F                       &kp G                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H           &lt 4 J     &lt 2 K    &kp L                   &kp P                        &trans
@@ -228,7 +228,7 @@
         };
 
         symbol {
-            display-name = "SYMBOL";
+            display-name = "SYM";
             bindings = <
 &trans  &kp EXCL   &kp AT     &kp HASH                 &kp DLLR                    &kp PRCNT                                &mmv MOVE_UP                     &kp CARET       &kp AMPS                   &kp ASTRK                   &kp TILDE         &trans        &trans
 &trans  &kp TAB    &kp EQUAL  &kp MINUS                &kp SQT                     &kp BACKSLASH            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS       &kp RIGHT_PARENTHESIS       &kp RIGHT_BRACE   &kp ENTER     &trans

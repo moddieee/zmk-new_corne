@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  COLEMK:
+  CLMK:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
   - {t: W, h: APP}
@@ -47,9 +47,9 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  QWERTY:
+  QWTY:
   - {t: '$$mdi:transfer$$', type: trans}
   - Q
   - {t: W, h: APP}
@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: 'Alt+Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-tab$$', h: SYM}
   - {t: '$$mdi:transfer$$', type: trans}
   NAV:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -137,8 +137,8 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: COLEMK, h: toggle}
-  - {t: QWERTY, h: toggle}
+  - {t: CLMK, h: toggle}
+  - {t: QWTY, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SYMBOL:
+  SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -316,10 +316,10 @@ combos:
 - p: [9, 10]
   k: ':'
 - p: [1, 2, 3]
-  k: {t: QWERTY, h: toggle}
+  k: {t: QWTY, h: toggle}
 - p: [1, 2, 3]
-  k: {t: COLEMK, h: toggle}
-  l: [QWERTY]
+  k: {t: CLMK, h: toggle}
+  l: [QWTY]
 - p: [18, 33]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [1, 5]

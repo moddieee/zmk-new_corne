@@ -79,6 +79,16 @@
             quick-release;
             release-after-ms = <1000>;
         };
+
+        Mouse2HT: Mouse2HT {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOUSE2HT";
+            bindings = <&mkp>, <&mkp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -218,10 +228,10 @@
         nav {
             display-name = "NAV";
             bindings = <
-&trans  &LongHT LA(F4) ESC        &msc SCRL_UP        &mmv MOVE_UP            &msc SCRL_DOWN              &msc SCRL_LEFT                                               &mmv MOVE_UP                     &kp HOME   &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &trans                      &trans
-&trans  &mt LA(LC(TAB)) TAB       &mmv MOVE_LEFT      &mmv MOVE_DOWN          &mmv MOVE_RIGHT             &msc SCRL_RIGHT                              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp END    &kp LEFT     &kp DOWN      &kp RIGHT      &ht LC(LS(NUMBER_3)) ENTER  &trans
-&trans  &MouseHT LEFT_SHIFT MCLK  &MouseHT LWIN RCLK  &ht LEFT_ALT LC(LA(V))  &mkp LCLK                   &LongHT LC(LA(DELETE)) DELETE  &kp C_MUTE                    &mmv MOVE_DOWN                   &mkp RCLK  &mkp LCLK    &to 0         &to 1          &none                       &trans
-                                                      &trans                  &ht LC(LS(NUMBER_3)) SPACE  &trans                                                                                        &trans     &trans       &trans
+&trans  &LongHT LA(F4) ESC        &msc SCRL_UP        &mmv MOVE_UP            &msc SCRL_DOWN              &msc SCRL_LEFT                                               &mmv MOVE_UP                     &kp HOME             &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &trans                      &trans
+&trans  &mt LA(LC(TAB)) TAB       &mmv MOVE_LEFT      &mmv MOVE_DOWN          &mmv MOVE_RIGHT             &msc SCRL_RIGHT                              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp END              &kp LEFT     &kp DOWN      &kp RIGHT      &ht LC(LS(NUMBER_3)) ENTER  &trans
+&trans  &MouseHT LEFT_SHIFT MCLK  &MouseHT LWIN RCLK  &ht LEFT_ALT LC(LA(V))  &mkp LCLK                   &LongHT LC(LA(DELETE)) DELETE  &kp C_MUTE                    &mmv MOVE_DOWN                   &Mouse2HT MCLK RCLK  &mkp LCLK    &to 0         &to 1          &none                       &trans
+                                                      &trans                  &ht LC(LS(NUMBER_3)) SPACE  &trans                                                                                        &trans               &trans       &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;

@@ -627,25 +627,17 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo"/>
 <text x="812" y="31" class="combo tap">:</text>
 </g>
-<g class="combo combopos-10">
-<path d="M140,37 l-38,8" class="combo"/>
-<path d="M140,37 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="126" y="24" width="28" height="26" class="combo"/>
-<a href="#QWTY">
-<text x="140" y="37" class="combo tap layer-activator">QWTY</text>
-</a><text x="140" y="48" class="combo hold">toggle</text>
-</g>
-<g class="combo enter combopos-11">
+<g class="combo enter combopos-10">
 <rect rx="6" ry="6" x="294" y="112" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="299" y="116" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-11">
 <path d="M196,45 l-93,3" class="combo"/>
 <path d="M196,45 l93,-3" class="combo"/>
 <rect rx="6" ry="6" x="182" y="32" width="28" height="26" class="combo"/>
 <text x="196" y="45" class="combo tap"><tspan style="font-size: 60%">&amp;ALCMLinks</tspan></text>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
 <text x="812" y="143" class="combo tap">-</text>
 <text x="812" y="132" class="combo shifted">_</text>
@@ -966,33 +958,17 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo"/>
 <text x="812" y="31" class="combo tap">:</text>
 </g>
-<g class="combo combopos-10">
-<path d="M140,37 l-38,8" class="combo"/>
-<path d="M140,37 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="126" y="24" width="28" height="26" class="combo"/>
-<a href="#QWTY">
-<text x="140" y="37" class="combo tap layer-activator">QWTY</text>
-</a><text x="140" y="48" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-11">
-<path d="M140,37 l-38,8" class="combo"/>
-<path d="M140,37 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="126" y="24" width="28" height="26" class="combo"/>
-<a href="#CLMK">
-<text x="140" y="37" class="combo tap layer-activator">CLMK</text>
-</a><text x="140" y="48" class="combo hold">toggle</text>
-</g>
-<g class="combo enter combopos-12">
+<g class="combo enter combopos-10">
 <rect rx="6" ry="6" x="294" y="112" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="299" y="116" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-11">
 <path d="M196,45 l-93,3" class="combo"/>
 <path d="M196,45 l93,-3" class="combo"/>
 <rect rx="6" ry="6" x="182" y="32" width="28" height="26" class="combo"/>
 <text x="196" y="45" class="combo tap"><tspan style="font-size: 60%">&amp;ALCMLinks</tspan></text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
 <text x="812" y="143" class="combo tap">-</text>
 <text x="812" y="132" class="combo shifted">_</text>
@@ -1312,25 +1288,17 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo"/>
 <text x="812" y="31" class="combo tap">:</text>
 </g>
-<g class="combo combopos-10">
-<path d="M140,37 l-38,8" class="combo"/>
-<path d="M140,37 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="126" y="24" width="28" height="26" class="combo"/>
-<a href="#QWTY">
-<text x="140" y="37" class="combo tap layer-activator">QWTY</text>
-</a><text x="140" y="48" class="combo hold">toggle</text>
-</g>
-<g class="combo enter combopos-11">
+<g class="combo enter combopos-10">
 <rect rx="6" ry="6" x="294" y="112" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="299" y="116" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-11">
 <path d="M196,45 l-93,3" class="combo"/>
 <path d="M196,45 l93,-3" class="combo"/>
 <rect rx="6" ry="6" x="182" y="32" width="28" height="26" class="combo"/>
 <text x="196" y="45" class="combo tap"><tspan style="font-size: 60%">&amp;ALCMLinks</tspan></text>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
 <text x="812" y="143" class="combo tap">-</text>
 <text x="812" y="132" class="combo shifted">_</text>
@@ -1641,25 +1609,17 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo"/>
 <text x="812" y="31" class="combo tap">:</text>
 </g>
-<g class="combo combopos-10">
-<path d="M140,37 l-38,8" class="combo"/>
-<path d="M140,37 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="126" y="24" width="28" height="26" class="combo"/>
-<a href="#QWTY">
-<text x="140" y="37" class="combo tap layer-activator">QWTY</text>
-</a><text x="140" y="48" class="combo hold">toggle</text>
-</g>
-<g class="combo enter combopos-11">
+<g class="combo enter combopos-10">
 <rect rx="6" ry="6" x="294" y="112" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="299" y="116" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-11">
 <path d="M196,45 l-93,3" class="combo"/>
 <path d="M196,45 l93,-3" class="combo"/>
 <rect rx="6" ry="6" x="182" y="32" width="28" height="26" class="combo"/>
 <text x="196" y="45" class="combo tap"><tspan style="font-size: 60%">&amp;ALCMLinks</tspan></text>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
 <text x="812" y="143" class="combo tap">-</text>
 <text x="812" y="132" class="combo shifted">_</text>
@@ -1978,25 +1938,17 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo"/>
 <text x="812" y="31" class="combo tap">:</text>
 </g>
-<g class="combo combopos-10">
-<path d="M140,37 l-38,8" class="combo"/>
-<path d="M140,37 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="126" y="24" width="28" height="26" class="combo"/>
-<a href="#QWTY">
-<text x="140" y="37" class="combo tap layer-activator">QWTY</text>
-</a><text x="140" y="48" class="combo hold">toggle</text>
-</g>
-<g class="combo enter combopos-11">
+<g class="combo enter combopos-10">
 <rect rx="6" ry="6" x="294" y="112" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="299" y="116" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-11">
 <path d="M196,45 l-93,3" class="combo"/>
 <path d="M196,45 l93,-3" class="combo"/>
 <rect rx="6" ry="6" x="182" y="32" width="28" height="26" class="combo"/>
 <text x="196" y="45" class="combo tap"><tspan style="font-size: 60%">&amp;ALCMLinks</tspan></text>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
 <text x="812" y="143" class="combo tap">-</text>
 <text x="812" y="132" class="combo shifted">_</text>
@@ -2308,25 +2260,17 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="798" y="18" width="28" height="26" class="combo"/>
 <text x="812" y="31" class="combo tap">:</text>
 </g>
-<g class="combo combopos-10">
-<path d="M140,37 l-38,8" class="combo"/>
-<path d="M140,37 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="126" y="24" width="28" height="26" class="combo"/>
-<a href="#QWTY">
-<text x="140" y="37" class="combo tap layer-activator">QWTY</text>
-</a><text x="140" y="48" class="combo hold">toggle</text>
-</g>
-<g class="combo enter combopos-11">
+<g class="combo enter combopos-10">
 <rect rx="6" ry="6" x="294" y="112" width="28" height="26" class="combo enter"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="299" y="116" height="18" width="18.0" class="combo enter tap glyph mdi:keyboard-return"/>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-11">
 <path d="M196,45 l-93,3" class="combo"/>
 <path d="M196,45 l93,-3" class="combo"/>
 <rect rx="6" ry="6" x="182" y="32" width="28" height="26" class="combo"/>
 <text x="196" y="45" class="combo tap"><tspan style="font-size: 60%">&amp;ALCMLinks</tspan></text>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-12">
 <rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
 <text x="812" y="143" class="combo tap">-</text>
 <text x="812" y="132" class="combo shifted">_</text>

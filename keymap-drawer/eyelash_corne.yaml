@@ -315,11 +315,6 @@ combos:
   k: {t: ;, s: ':'}
 - p: [9, 10]
   k: ':'
-- p: [1, 2, 3]
-  k: {t: QWTY, h: toggle}
-- p: [1, 2, 3]
-  k: {t: CLMK, h: toggle}
-  l: [QWTY]
 - p: [18, 33]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [1, 5]

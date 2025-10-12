@@ -158,17 +158,6 @@
             key-positions = <9 10>;
         };
 
-        QwertyLayer {
-            bindings = <&to 1>;
-            key-positions = <1 2 3>;
-        };
-
-        ColemakLayer {
-            bindings = <&to 0>;
-            key-positions = <1 2 3>;
-            layers = <1>;
-        };
-
         Enter {
             bindings = <&kp ENTER>;
             key-positions = <18 33>;

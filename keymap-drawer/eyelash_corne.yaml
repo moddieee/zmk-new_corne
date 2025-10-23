@@ -264,7 +264,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+5, s: Gui+%}
   - Gui+6
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+0, s: Gui+)}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

@@ -168,9 +168,14 @@
             key-positions = <1 5>;
         };
 
-        comma {
+        Dash {
             bindings = <&kp MINUS>;
             key-positions = <38 39>;
+        };
+
+        AltTab2 {
+            bindings = <&kp LA(LC(TAB))>;
+            key-positions = <33 32>;
         };
     };
 

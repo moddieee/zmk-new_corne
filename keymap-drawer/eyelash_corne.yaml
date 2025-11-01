@@ -321,3 +321,5 @@ combos:
   k: '&ALCMLinks'
 - p: [38, 39]
   k: {t: '-', s: _}
+- p: [33, 32]
+  k: Alt+Ctl+$$mdi:keyboard-tab$$

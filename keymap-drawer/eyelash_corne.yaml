@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYM}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - APP
   QWTY:
   - {t: '$$mdi:transfer$$', type: trans}
   - Q

@@ -184,10 +184,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LC(L)>,
-                <&macro_wait_time 200>,
-                <&kp LS(Z) &kp COLON &kp BSLH &kp LS(A) &kp LS(L) &kp LS(C) &kp LS(M) &kp SPACE &kp LS(L) &kp I &kp N &kp K &kp S>;
-
+                <&kp LC(L)>,                // Ctrl+L first
+                <&macro_wait_time 200>,     // short delay
+                <&macro_press "Z:\\ALCM Links">;  // send full phrase with exact case
             label = "ALCMLINKS";
         };
     };

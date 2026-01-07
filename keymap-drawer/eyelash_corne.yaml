@@ -211,7 +211,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: F3, h: F9}
   - {t: F2, h: F8}
   - {t: F1, h: F7, type: held}

@@ -265,5 +265,16 @@
 
             label = "APP";
         };
+        game {
+        display-name = "GAME";
+        bindings = <
+&trans  &kp ESC   &kp Q     &kp W     &kp E     &kp R     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp TAB   &kp A     &kp S     &kp D     &kp F     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LSFT  &kp X     &kp C     &kp V     &kp V     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                     &kp LCTRL  &kp SPACE  &ht 4 3                                   &to 0   &kp 0   &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp 1 2>;
+        };
     };
 };

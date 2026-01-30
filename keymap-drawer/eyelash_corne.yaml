@@ -339,7 +339,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
-  - {t: '3', h: '4', s: '#'}
+  - {t: '1', h: '2', s: '!'}
   - {t: CLMK, h: toggle}
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}

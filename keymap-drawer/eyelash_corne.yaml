@@ -139,7 +139,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: CLMK, h: toggle}
   - {t: QWTY, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: GAME, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', h: Ctl+Sft+3}

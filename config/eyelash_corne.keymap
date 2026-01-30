@@ -272,10 +272,10 @@
 &trans  &kp ESC   &kp Q     &kp W     &kp E     &kp R                              &trans              &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp TAB   &kp A     &kp S     &kp D     &kp F                     &trans   &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LSFT  &kp X     &kp C     &kp V     &kp V      &trans                  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-                           &kp LCTRL  &kp SPACE  &ht N4 N3    &to 0   &kp 0   &trans
+                           &kp LCTRL  &kp SPACE  &ht N2 N1    &to 0   &kp 0   &trans
             >;
         
-            sensor-bindings = <&inc_dec_kp N1 N2>;
+            sensor-bindings = <&inc_dec_kp N3 N4>;
         };
     };
 };

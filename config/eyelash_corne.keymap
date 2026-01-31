@@ -204,7 +204,7 @@
                        &ht LC(LA(ENTER)) LA(LC(TAB))  &ht LA(LC(LEFT_SHIFT)) SPACE  &mt LCTRL ENTER                                                           &quickSK LSHFT  &lt 3 TAB   &kp K_APP
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         alpha2 {
